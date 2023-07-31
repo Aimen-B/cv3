@@ -294,7 +294,7 @@ const CV: NextPage = () => {
             <br/>
             <Credential
               
-              title="gestion informatique"
+              title="Gestion Informatique"
               subtitle="2nd year - In progress"
             />
           </div>
