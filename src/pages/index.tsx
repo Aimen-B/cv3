@@ -46,7 +46,7 @@ import WorkShowcase from '../components/CV/WorkShowcase'
 
 // Images for Positions
 
-import LO from '../public/CV/LOGO.png'
+import LO from '../public/CV/Logo.png'
 
 //
 import PFP from '../public/CV/pfp.png'
