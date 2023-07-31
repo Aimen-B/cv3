@@ -54,6 +54,7 @@ import Uv from '../public/CV/uv.jpg'
 import zinzinoDesk from '../public/CV/zinzino-desk.png'
 import RA from '../public/CV/RA.png'
 import SR from '../public/CV/store.png'
+import LK from '../public/CV/link.png'
 
 const CV: NextPage = () => {
   return (
@@ -62,6 +63,9 @@ const CV: NextPage = () => {
     <meta property="og:image" content="../public/CV/link.png" />
     </head>
     <div className="min-h-screen w-full bg-black flex justify-center items-center">
+    <div className="thumbnail">
+      <Image className='absolute top-0 -z-50' src={LK} width={200} height={200} alt=''></Image>
+    </div>
       <div className="bg-gray-dark w-full h-full xl:w-[70%] px-[4%] py-6">
         {/* Identity Section, Picture, Name, Location */}
         <div className="flex items-center">
