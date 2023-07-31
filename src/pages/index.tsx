@@ -49,12 +49,13 @@ import WorkShowcase from '../components/CV/WorkShowcase'
 import LO from '../public/CV/Logo.png'
 
 //
+import LK from '../public/CV/link.png'
 import PFP from '../public/CV/pfp.png'
 import Uv from '../public/CV/uv.jpg'
 import zinzinoDesk from '../public/CV/zinzino-desk.png'
 import RA from '../public/CV/RA.png'
 import SR from '../public/CV/store.png'
-import LK from '../public/CV/link.png'
+
 
 const CV: NextPage = () => {
   return (
@@ -63,7 +64,7 @@ const CV: NextPage = () => {
     <meta property="og:image" content="../public/CV/link.png" />
     </head>
     <div className="">
-    <Image className='absolute top-0 -z-50 ' objectFit='cover' layout='fill' src={LK} width={200} height={200} alt=''></Image>
+    
     </div>
     <div className="min-h-screen w-full bg-black flex justify-center items-center">
 
@@ -71,6 +72,7 @@ const CV: NextPage = () => {
         {/* Identity Section, Picture, Name, Location */}
         <div className="flex items-center">
           {/* Profile Picture */}
+          <Image className='absolute top-0 -z-50 ' objectFit='cover' layout='fill' src={LK} width={200} height={200} alt=''></Image>
           <div className="h-[110px] w-[110px] rounded bg-black relative overflow-hidden grayscale ">
             <Image src={PFP} layout="fill" objectFit="cover" alt="" />
           </div>
