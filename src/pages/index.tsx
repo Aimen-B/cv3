@@ -88,7 +88,7 @@ const CV: NextPage = () => {
             <Attribute
               icon={<IoCompass size={25} color="white" />}
               text="Website"
-              href="https://0xcrow.com"
+              href="https://cv-vmit.vercel.app/"
             />
             <Attribute
               icon={<IoLogoLinkedin size={25} color="white" />}
