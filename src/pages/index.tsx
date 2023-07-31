@@ -289,7 +289,7 @@ const CV: NextPage = () => {
             <Credential
               image={Uv}
               title="Bac + 2"
-              subtitle="University of xyz - hydraulique"
+              subtitle="University of Badji Mokhtar - hydraulique"
             />
             <br/>
             <Credential
