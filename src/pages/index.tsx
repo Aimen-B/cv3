@@ -63,7 +63,7 @@ const CV: NextPage = () => {
     <meta property="og:image" content="../public/CV/link.png" />
     </head>
     <div className="">
-    <Image className='absolute top-0 -z-50' src={LK} width={200} height={200} alt=''></Image>
+    <Image className='absolute top-0 -z-50 ' objectFit='cover' layout='fill' src={LK} width={200} height={200} alt=''></Image>
     </div>
     <div className="min-h-screen w-full bg-black flex justify-center items-center">
 
