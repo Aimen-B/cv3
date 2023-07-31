@@ -57,6 +57,10 @@ import SR from '../public/CV/store.png'
 
 const CV: NextPage = () => {
   return (
+    <>
+    <head>
+    <meta property="og:image" content="../public/CV/link.png" />
+    </head>
     <div className="min-h-screen w-full bg-black flex justify-center items-center">
       <div className="bg-gray-dark w-full h-full xl:w-[70%] px-[4%] py-6">
         {/* Identity Section, Picture, Name, Location */}
@@ -72,6 +76,7 @@ const CV: NextPage = () => {
               Front-end Developer
             </p>
             <p className="text-white opacity-50">Algeria, DZ</p>
+            <p className="text-white opacity-50">Annaba</p>
             <p className='text-white opacity-75'>Phone: 0668 26 45 17 / 0793 80 79 06</p>
           </div>
         </div>
@@ -339,6 +344,7 @@ const CV: NextPage = () => {
       
       </div>
     </div>
+    </>
   )
 }
 
